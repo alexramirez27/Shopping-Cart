@@ -1,0 +1,54 @@
+header {
+  padding: 18px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header-bg);
+}
+
+header > button {
+  background-color: var(--header-bg);
+  border: none;
+  padding: 8px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > button:hover {
+  outline: 1.5px solid var(--bg-light);
+  border-radius: 3px;
+}
+
+header svg {
+  color: var(--bg-light);
+}
+
+header > h1 {
+  color: var(--bg-light);
+  font-size: 2.25rem;
+  font-weight: 700;
+  padding: 8px 6px;
+  margin: 0;
+}
+
+header > h1:hover,
+header > button:hover {
+  cursor: pointer;
+}
+
+header > h1 > span {
+  color: var(--orange-custom);
+}
+
+header > h1:hover {
+  outline: 1.5px solid var(--bg-light);
+  border-radius: 3px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  header {
+    padding: 16px;
+  }
+}

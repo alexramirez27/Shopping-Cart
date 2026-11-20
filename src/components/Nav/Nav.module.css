@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--nav-bg);
+    color: var(--bg-light);
+    padding: 0;
+}
+
+nav > h2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+nav > * {
+    padding: 8px 6px;
+    margin: 0;
+}
+
+nav > *:hover {
+    cursor: pointer;
+    outline: 1.5px solid var(--bg-light);
+    border-radius: 3px;
+}
+
+.cart-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-container > h2 {
+    position: absolute;
+    font-size: 1.25rem;
+    top: -12px;
+    color: var(--orange-custom);
+}
+
+/* .cart-container svg {
+    border: 1px solid purple;
+} */

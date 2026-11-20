@@ -1,0 +1,3 @@
+# Shopping Cart
+
+Project Assignment from the React course of The Odin Project.
